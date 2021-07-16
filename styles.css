@@ -1,0 +1,142 @@
+*{
+	padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', cursive;
+    text-transform: uppercase; 
+}
+
+/*-------Nav Bar---------------*/
+
+nav a:hover {
+  padding: 10px 0; 
+}
+/*-------End of Navbar--------*/
+
+section.topContent{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+
+section.topContent .main-content {
+    
+    color: #6495ED;
+    font-size: 25px;
+    
+}
+
+section.topContent .sub-content {
+    color:black;
+    font-size: 20px;
+}
+
+section.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sub-title {
+    color: #4F75E2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.topContent img {
+    width: 100%;
+    border-radius: 25%;
+}
+
+/* End of Home */
+
+/* About us*/
+.heading{
+    color: #6495ED;
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+    padding-top: 200px;  
+
+}
+.text{
+    font-size: 25px;    
+}
+
+/* End of About Us*/
+
+
+/* Card */
+.card:hover{
+    box-shadow: 5px 15px ;
+}   
+/* End of Card*/
+
+/* Contact Us */
+#contact{
+    width: 700px;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+      width: 400px;
+    }
+  }
+
+  
+  /* End of Contact Us */
+
+/* Footer */
+
+footer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  margin: 0px;
+  margin-top: 50px;
+  padding-top: 25px;
+
+}
+
+.text-copy{
+  text-align: center;
+  padding: 25px 0;
+  
+ display: flex;
+ justify-content: center;
+
+ 
+ margin: 0px;   
+}
+
+ 
+
+/* End of footer */
+
+.hero-button{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 20px;
+
+  font-weight: bold;
+  background: #6495ED;
+  color:#fff;
+  cursor:pointer;
+  border: 2px solid #6495ED;
+  margin-top: 10px;
+}
+
+.hero-button:hover{
+  text-decoration: none;
+  background: white;
+  color:#6495ED;
+  border:none;
+}
+
